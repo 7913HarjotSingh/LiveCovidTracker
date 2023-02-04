@@ -1,0 +1,58 @@
+/*  Basic Styling */
+body{
+    background-color:black;
+}
+
+h1,h2{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+     background-color:green;
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+
+}
